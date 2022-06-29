@@ -43,7 +43,7 @@ function ButtonLayout() {
             <button  
                 type="button" 
                 className="btn btn-primary linked-in">
-                <a href="https://lindedin.com/in/chsatyaraj">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/chsatyaraj/" target={"_blank"}>LinkedIn</a>
             </button>
         </div>
     )
