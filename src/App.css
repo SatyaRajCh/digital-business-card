@@ -36,3 +36,110 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+.card {
+  background: #1A1B21;
+  width: 330px;
+  height: 780px;
+  border-radius: 12px;
+  margin: 25px;
+}
+
+.card > img {
+  width: 100%;
+  height: 317px;
+  object-fit: fill;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.dark-card-body > .name-designation{
+  text-align: center;
+}
+
+.name-designation > h2 {
+  width: 100%;
+  color: white;
+}
+
+.designation {
+  margin-top: -15px;
+  color: #F3BF99;
+}
+
+.website-link {
+  margin-top: -10px;
+  color: white;
+}
+
+.dark-card-body {
+  text-align: center;
+}
+
+.buttons-container > button {
+  width: 115px;
+  height: 34px;
+  border-radius: 7px;
+}
+
+.linked-in {
+  background: #5093E2;
+  color: white;
+}
+
+.linked-in > a {
+  background: #5093E2;
+  text-decoration: none;
+  color: white;
+}
+
+.email {
+  background: white;
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  background-position: left;
+  color: black;
+  margin-right: 20px;
+}
+
+.email > a {
+  background: white;
+  text-decoration: none;
+  color: white;
+}
+
+.description {
+  color: white;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.description > h3 {
+  font-weight: bold;
+}
+
+.description > p {
+  margin-top: -15px;
+  line-height: 20px;
+}
+
+.footer {
+  text-align: center;
+  height: 64px;
+  background: #161619;
+  position: bottom fixed;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.footer > a > img {
+  width: 25px;
+  height: 25px;
+  align-content: center;
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px; 
+}
