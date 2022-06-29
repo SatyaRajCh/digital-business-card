@@ -3,7 +3,7 @@ import React from "react"
 export default function Card() {
     return (
         <div className="card container-fluid">
-            <img src="../images/profile-pic.jpg" className="card-img-top img-responsive" alt="..."/>
+            <img src="./images/profile-pic.jpg" className="card-img-top img-responsive" alt="..."/>
             <div className="dark-card-body">
                 <NameDesignation />
                 <ButtonLayout />
@@ -70,10 +70,10 @@ function Interests() {
 function Footer() {
     return (
         <div className="footer">
-            <a href="https://twitter.com/Raj_Chitrada" target={"_blank"}><img src="../images/twitter-icon.png" /></a>
-            <a href="https://www.facebook.com/raj.chitrada" target={"_blank"}><img src="../images/facebook-icon.png" href="facebook.com"/></a>
-            <a href="https://www.instagram.com/raj_chitrada" target={"_blank"}><img src="../images/instagram-icon.png" href="instagram.com"/></a>
-            <a href="https://github.com/SatyaRajCh" target={"_blank"}><img src="../images/github-icon.png" href="github.com"/></a>
+            <a href="https://twitter.com/Raj_Chitrada" target={"_blank"}><img src="./images/twitter-icon.png" /></a>
+            <a href="https://www.facebook.com/raj.chitrada" target={"_blank"}><img src="./images/facebook-icon.png" href="facebook.com"/></a>
+            <a href="https://www.instagram.com/raj_chitrada" target={"_blank"}><img src="./images/instagram-icon.png" href="instagram.com"/></a>
+            <a href="https://github.com/SatyaRajCh" target={"_blank"}><img src="./images/github-icon.png" href="github.com"/></a>
         </div>
     )
 }
